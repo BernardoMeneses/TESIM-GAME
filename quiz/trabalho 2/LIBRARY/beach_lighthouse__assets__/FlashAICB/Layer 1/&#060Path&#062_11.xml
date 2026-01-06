@@ -1,0 +1,47 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_11" itemID="61a87540-000002c2" lastModified="1638430016">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_11" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#C7C7C7"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!550 602|690 0!690 0|0 0!0 0|139 602!139 602|62 602!62 602|62 665!62 665|220 665!220 665|232 687!232 687|62 687!62 687|62 703!62 703|240 703!240 703|271 764!271 764|418 764!418 764|450 703!450 703|628 703!628 703|628 687!628 687|458 687
+!458 687|469 665!469 665|628 665!628 665|628 602!628 602|550 602"/>
+                    <Edge cubics="!139 602(;139,602 62,602 62,602q139 602 62 602);"/>
+                    <Edge cubics="!62 602(;62,602 62,665 62,665q62 602 62 665);"/>
+                    <Edge cubics="!62 665(;62,665 220,665 220,665q62 665 220 665);"/>
+                    <Edge cubics="!220 665(;220,665 232,687 232,687q220 665 232 687);"/>
+                    <Edge cubics="!232 687(;232,687 62,687 62,687q232 687 62 687);"/>
+                    <Edge cubics="!62 687(;62,687 62,703 62,703q62 687 62 703);"/>
+                    <Edge cubics="!62 703(;62,703 240,703 240,703q62 703 240 703);"/>
+                    <Edge cubics="!240 703(;240,703 271,764 271,764q240 703 271 764);"/>
+                    <Edge cubics="!271 764(;271,764 418,764 418,764q271 764 418 764);"/>
+                    <Edge cubics="!418 764(;418,764 450,703 450,703q418 764 450 703);"/>
+                    <Edge cubics="!450 703(;450,703 628,703 628,703q450 703 628 703);"/>
+                    <Edge cubics="!628 703(;628,703 628,687 628,687q628 703 628 687);"/>
+                    <Edge cubics="!628 687(;628,687 458,687 458,687q628 687 458 687);"/>
+                    <Edge cubics="!458 687(;458,687 469,665 469,665q458 687 469 665);"/>
+                    <Edge cubics="!469 665(;469,665 628,665 628,665q469 665 628 665);"/>
+                    <Edge cubics="!628 665(;628,665 628,602 628,602q628 665 628 602);"/>
+                    <Edge cubics="!628 602(;628,602 550,602 550,602q628 602 550 602);"/>
+                    <Edge cubics="!550 602(;550,602 690,0 690,0q550 602 690 0);"/>
+                    <Edge cubics="!0 0(;0,0 139,602 139,602q0 0 139 602);"/>
+                    <Edge cubics="!690 0(;690,0 0,0 0,0q690 0 0 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

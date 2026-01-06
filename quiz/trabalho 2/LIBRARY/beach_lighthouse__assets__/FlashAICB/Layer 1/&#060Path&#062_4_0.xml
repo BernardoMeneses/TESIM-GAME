@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_4_0" itemID="61a87540-000002b6" lastModified="1638430016">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_4_0" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#545454"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!0 412[777 304 1089 274!1089 274[1524 231 1907 240!1907 240[2275 248 2888 311!2888 311[3149 338 4470 490!4470 490[6158 684 7795 655!7795 655[8614 641 9095 587!9095 587[8768 478 7830 482!7830 482[7535 484 7217 497!7217 497|6957 509!6957
+ 509[6829 307 6384 220!6384 220[5802 106 4820 237!4820 237[4710 107 4230 45!4230 45[3806 -9 3192 1!3192 1[2618 10 2103 70!2103 70[1575 131 1360 217!1360 217[1496 20 760 191!760 191[513 248 243 330!243 330[0 403 0 412"/>
+                    <Edge cubics="!0 412(;1826,159 1768,179 4470,490q0 412Q777 304q1089 274Q1524 231q1907 240Q2275 248q2888 311Q3149 338q4470 490);"/>
+                    <Edge cubics="!4470 490(;7171,801 9095,587 9095,587q4470 490Q6158 684q7795 655Q8614 641q9095 587);"/>
+                    <Edge cubics="!9095 587(;8571,412 6957,509 6957,509q9095 587Q8768 478q7830 482Q7535 484q7217 497Q6957 509q6957 509);"/>
+                    <Edge cubics="!6957 509(;6821,295 6277,43 4820,237q6957 509Q6829 307q6384 220Q5802 106q4820 237);"/>
+                    <Edge cubics="!4820 237(;4509,-132 1943,-16 1360,217q4820 237Q4710 107q4230 45Q3806 -9q3192 1Q2618 10q2103 70Q1575 131q1360 217);"/>
+                    <Edge cubics="!1360 217(;1574,-93 0,392 0,412q1360 217Q1496 20q760 191Q513 248q243 330Q0 403q0 412);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

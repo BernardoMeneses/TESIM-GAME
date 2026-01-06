@@ -1,0 +1,89 @@
+{
+    "player": "Joker",
+    "score": 7,
+    "totalQuestions": 10,
+    "answeredQuestions": 10,
+    "timestamp": "2026-01-06T15:48:05.680Z",
+    "results": [
+        {
+            "question": "O que significa HTML?",
+            "correctIndex": 0,
+            "selectedIndex": 0,
+            "timeMs": 1991,
+            "isCorrect": true,
+            "answered": true
+        },
+        {
+            "question": "Qual destas linguagens é usada para interatividade na web?",
+            "correctIndex": 2,
+            "selectedIndex": 2,
+            "timeMs": 925,
+            "isCorrect": true,
+            "answered": true
+        },
+        {
+            "question": "O Adobe Animate HTML5 exporta animações usando:",
+            "correctIndex": 2,
+            "selectedIndex": 1,
+            "timeMs": 279,
+            "isCorrect": false,
+            "answered": true
+        },
+        {
+            "question": "Qual destes é um formato multimédia?",
+            "correctIndex": 1,
+            "selectedIndex": 0,
+            "timeMs": 312,
+            "isCorrect": false,
+            "answered": true
+        },
+        {
+            "question": "Qual é a principal função do CSS?",
+            "correctIndex": 2,
+            "selectedIndex": 2,
+            "timeMs": 838,
+            "isCorrect": true,
+            "answered": true
+        },
+        {
+            "question": "O que é multimédia?",
+            "correctIndex": 3,
+            "selectedIndex": 3,
+            "timeMs": 1348,
+            "isCorrect": true,
+            "answered": true
+        },
+        {
+            "question": "Qual destes dispositivos é de entrada?",
+            "correctIndex": 2,
+            "selectedIndex": 2,
+            "timeMs": 995,
+            "isCorrect": true,
+            "answered": true
+        },
+        {
+            "question": "Qual tecnologia permite guardar dados num servidor?",
+            "correctIndex": 1,
+            "selectedIndex": 1,
+            "timeMs": 749,
+            "isCorrect": true,
+            "answered": true
+        },
+        {
+            "question": "O que significa UI?",
+            "correctIndex": 1,
+            "selectedIndex": 2,
+            "timeMs": 1581,
+            "isCorrect": false,
+            "answered": true
+        },
+        {
+            "question": "Qual destes é um exemplo de aplicação multimédia interativa?",
+            "correctIndex": 2,
+            "selectedIndex": 2,
+            "timeMs": 952,
+            "isCorrect": true,
+            "answered": true
+        }
+    ]
+}

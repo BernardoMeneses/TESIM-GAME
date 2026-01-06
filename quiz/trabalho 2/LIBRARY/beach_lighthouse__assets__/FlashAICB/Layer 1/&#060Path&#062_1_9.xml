@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_1_9" itemID="61a87540-000002bc" lastModified="1638430016">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_1_9" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#545454"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!0 268|5073 268!5073 268[5247 203 5223 136!5223 136[5198 69 4990 40!4990 40[4460 -35 3479 191!3479 191[3503 45 2551 74!2551 74[2075 88 1594 132!1594 132[1658 -94 835 64!835 64[424 144 0 268"/>
+                    <Edge cubics="!0 268(;0,268 5073,268 5073,268q0 268 5073 268);"/>
+                    <Edge cubics="!5073 268(;5539,93 4918,-140 3479,191q5073 268Q5247 203q5223 136Q5198 69q4990 40Q4460 -35q3479 191);"/>
+                    <Edge cubics="!3479 191(;3518,-43 1594,132 1594,132q3479 191Q3503 45q2551 74Q2075 88q1594 132);"/>
+                    <Edge cubics="!1594 132(;1696,-230 0,268 0,268q1594 132Q1658 -94q835 64Q424 144q0 268);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

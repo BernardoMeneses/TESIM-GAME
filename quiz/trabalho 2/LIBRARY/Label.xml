@@ -1,0 +1,75 @@
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Label" itemID="695bcb3b-0000019d" lastModified="1767623483" displayAsComponent="false" customIconID="0" persistLivePreview11="true" symbolDescription="__HTML5_Component__" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
+  <persistentData>
+    <PD n="className" v="an.Label"/>
+    <PD n="htmlURL"/>
+    <PD n="source" v="ui/src/label.js"/>
+    <PD n="dependencies" v="lib/jquery-3.4.1.min.js,https://code.jquery.com/jquery-3.4.1.min.js;sdk/anwidget.js,"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="Label" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#E6E6E6"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke>
+                        <fill>
+                          <SolidColor color="#A0A0A0"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!40 0|1960 0!1960 0[2000 0 2000 40!2000 40|2000 400!2000 400[2000 440 1960 440!1960 440|40 440!40 440[0 440 0 400!0 400|0 40!0 40[0 0 40 0"/>
+                  </edges>
+                </DOMShape>
+                <DOMBitmapInstance libraryItemName="____componentassets____/Label">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMStaticText fontRenderingMode="standard" top="5" left="42.5" width="55.5" height="14.5" isSelectable="false">
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Label</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="14.5" bitmapSize="240" face="Tahoma" fillColor="#494949"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+  <parametersAsXML><![CDATA[   <property id="label">
+      <Inspectable name="label" unlocalizedName="" variable="label" category="" verbose="0" defaultValue="Label" type="String"/>
+   </property>
+   <property id="disabled">
+      <Inspectable name="disabled" unlocalizedName="" variable="disabled" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" unlocalizedName="" variable="visible" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="class">
+      <Inspectable name="class" unlocalizedName="" variable="class" category="" verbose="0" defaultValue="ui-label" type="String"/>
+   </property>
+   <property id="__ComponentType__">
+      <Inspectable name="__ComponentType__" unlocalizedName="" variable="__ComponentType__" category="" verbose="0" defaultValue="1" type="Number"/>
+   </property>
+]]></parametersAsXML>
+  <customIcon>
+    <CustomIcon rowByteCount="128" colorDepth="32" width="32" height="32" frameRight="640" frameBottom="640" isTransparent="true" href="1lup78edcx.dat"/>
+  </customIcon>
+</DOMComponentItem>

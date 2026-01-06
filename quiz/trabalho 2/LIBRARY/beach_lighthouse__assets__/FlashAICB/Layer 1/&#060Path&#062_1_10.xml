@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_1_10" itemID="61a87540-000002c0" lastModified="1638430016">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_1_10" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#545454"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!107 629|0 629!0 629|87 0!87 0|253 0!253 0|107 629"/>
+                    <Edge cubics="!107 629(;107,629 0,629 0,629q107 629 0 629);"/>
+                    <Edge cubics="!0 629(;0,629 87,0 87,0q0 629 87 0);"/>
+                    <Edge cubics="!87 0(;87,0 253,0 253,0q87 0 253 0);"/>
+                    <Edge cubics="!253 0(;253,0 107,629 107,629q253 0 107 629);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

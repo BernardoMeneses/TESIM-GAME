@@ -1,0 +1,34 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_33" itemID="61a87540-000002ae" lastModified="1638430016">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_33" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F0F0F0"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!9653 339[9245 341 8904 391!8904 391[8744 415 8341 500!8341 500[7986 575 7701 608!7701 608[7277 657 6723 658!6723 658[5364 661 5204 670!5204 670[4871 691 4143 847!4143 847[3555 972 2240 986!2240 986[1903 990 0 969!0 969|0 0!0 0|15804
+ 40!15804 40[14951 83 14102 133!14102 133[12404 234 12423 268!12423 268[12442 305 11514 322!11514 322[10928 333 9653 339"/>
+                    <Edge cubics="!9653 339(;8414,346 8370,655 6723,658q9653 339Q9245 341q8904 391Q8744 415q8341 500Q7986 575q7701 608Q7277 657q6723 658);"/>
+                    <Edge cubics="!6723 658(;5076,661 5178,625 4143,847q6723 658Q5364 661q5204 670Q4871 691q4143 847);"/>
+                    <Edge cubics="!4143 847(;3232,1041 1359,984 0,969q4143 847Q3555 972q2240 986Q1903 990q0 969);"/>
+                    <Edge cubics="!0 969(;0,969 0,0 0,0q0 969 0 0);"/>
+                    <Edge cubics="!0 0(;0,0 15804,40 15804,40q0 0 15804 40);"/>
+                    <Edge cubics="!15804 40(;15804,40 12393,213 12423,268q15804 40Q14951 83q14102 133Q12404 234q12423 268);"/>
+                    <Edge cubics="!12423 268(;12452,323 10892,333 9653,339q12423 268Q12442 305q11514 322Q10928 333q9653 339);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

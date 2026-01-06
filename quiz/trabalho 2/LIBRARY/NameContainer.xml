@@ -1,0 +1,41 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="NameContainer" itemID="695be02d-000001d0" lastModified="1767628845">
+  <timeline>
+    <DOMTimeline name="NameContainer" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CC00FF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!0 1499S6|0 0!0 0|7680 0!7680 0|7680 1759!7680 1759|0 1759"/>
+                    <Edge fillStyle1="1" edges="!0 1759S2|0 1499"/>
+                    <Edge cubics="!0 1759(;0,1759 0,1499 0,1499q0 1759 0 1499);"/>
+                    <Edge cubics="!0 1499(;0,1499 0,0 0,0q0 1499 0 0);"/>
+                    <Edge cubics="!7680 1759(;7680,1759 0,1759 0,1759q7680 1759 0 1759);"/>
+                    <Edge cubics="!0 0(;0,0 7680,0 7680,0q0 0 7680 0);"/>
+                    <Edge cubics="!7680 0(;7680,0 7680,1759 7680,1759q7680 0 7680 1759);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

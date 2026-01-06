@@ -1,0 +1,1255 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="800" height="600" frameRate="30" currentTimeline="1" xflVersion="23.0" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 24.0 build 4" majorVersion="24" buildNumber="4" snapAlign="false" objectsSnapTo="false" timelineLabelWidth="488" viewAngle3D="74.2651684569298" vanishingPoint3DX="400" vanishingPoint3DY="300" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="BD37892DDD21624BA5CF5F1E8AC3AF4E">
+     <folders>
+          <DOMFolderItem name="____componentassets____" itemID="695bcb3b-0000015b"/>
+          <DOMFolderItem name="beach_lighthouse__assets__" itemID="6952b1df-000002ea"/>
+          <DOMFolderItem name="beach_lighthouse__assets__/FlashAICB" itemID="6952b1df-000002eb"/>
+          <DOMFolderItem name="beach_lighthouse__assets__/FlashAICB/Layer 1" itemID="6952b1df-000002ec"/>
+          <DOMFolderItem name="images" itemID="695d1a35-00000356" isExpanded="true"/>
+          <DOMFolderItem name="sounds" itemID="695bfdff-00000c1c"/>
+     </folders>
+     <media>
+          <DOMBitmapItem name="beach_lighthouse__assets__/FlashAICB/Layer 1/&lt;Mesh&gt;" itemID="61a87540-00000268" sourceLastImported="1638430016" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Mesh&amp;#062" bitmapDataHRef="M 1 1767027168.dat" frameRight="24000" frameBottom="10560"/>
+          <DOMSoundItem name="sounds/bad_result.mp3" itemID="695c08f3-0000107e" sourceLastImported="1767633468" externalFileCRC32="1798215026" externalFileSize="72994" href="sounds/bad_result.mp3" soundDataHRef="M 13 1767639283.dat" format="44kHz 16bit Stereo" sampleCount="201600" exportFormat="1" exportBits="7" dataLength="72932" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="25200"/>
+          <DOMBitmapItem name="images/brick background.jpg" itemID="6957ee3b-000002fd" sourceLastImported="1767718393" externalFileSize="11972352" allowSmoothing="true" quality="50" href="images/brick background.jpg" bitmapDataHRef="M 4 1767370299.dat" frameRight="94320" frameBottom="61060" isJPEG="true"/>
+          <DOMSoundItem name="sounds/button_click.mp3" itemID="695bf279-0000086b" sourceLastImported="1767633029" externalFileSize="5851" href="sounds/button_click.mp3" soundDataHRef="M 5 1767633529.dat" format="44kHz 16bit Stereo" sampleCount="8064" exportFormat="1" exportBits="7" dataLength="5851" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="1008"/>
+          <DOMSoundItem name="sounds/correct_answer.mp3" itemID="695bf279-0000086f" sourceLastImported="1767632960" externalFileSize="77740" href="sounds/correct_answer.mp3" soundDataHRef="M 6 1767633529.dat" format="44kHz 16bit Stereo" sampleCount="107136" exportFormat="1" exportBits="7" dataLength="77740" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="13392"/>
+          <DOMSoundItem name="sounds/good_result.mp3" itemID="695c08ed-0000107a" sourceLastImported="1767633128" externalFileCRC32="901902376" externalFileSize="67709" href="sounds/good_result.mp3" soundDataHRef="M 12 1767639277.dat" format="44kHz 16bit Stereo" sampleCount="93312" exportFormat="1" exportBits="7" dataLength="67709" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="11664"/>
+          <DOMBitmapItem name="____componentassets____/Label" itemID="695bcb3b-00000199" sourceLastImported="1758903216" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="____componentassets____/Label.png" bitmapDataHRef="M 3 1767626531.dat" frameLeft="980" frameTop="160" frameRight="1620" frameBottom="800"/>
+          <DOMBitmapItem name="images/question marks.png" itemID="695d1b4b-0000036c" sourceLastImported="1767709492" externalFileSize="205789" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/question marks.png" bitmapDataHRef="M 11 1767709515.dat" frameRight="11800" frameBottom="11800"/>
+          <DOMSoundItem name="sounds/quiz_menu.mp3" itemID="695bf279-00000877" sourceLastImported="1767632892" externalFileSize="1037374" href="sounds/quiz_menu.mp3" soundDataHRef="M 8 1767633529.dat" format="44kHz 16bit Stereo" sampleCount="1429632" exportFormat="1" exportBits="7" dataLength="1037374" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="178704"/>
+          <DOMBitmapItem name="images/trophy.png" itemID="695d1d88-000003b1" sourceLastImported="1767710042" externalFileSize="101128" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/trophy.png" bitmapDataHRef="M 14 1767710088.dat" frameRight="10000" frameBottom="10000"/>
+          <DOMSoundItem name="sounds/wrong_answer.mp3" itemID="695bf279-0000087b" sourceLastImported="1767632939" externalFileSize="61022" href="sounds/wrong_answer.mp3" soundDataHRef="M 9 1767633529.dat" format="44kHz 16bit Stereo" sampleCount="84096" exportFormat="1" exportBits="7" dataLength="61022" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="10512"/>
+     </media>
+     <symbols>
+          <Include href="Answer Container.xml" loadImmediate="false" itemID="6958045a-00000476" lastModified="1767455293"/>
+          <Include href="back.xml" loadImmediate="false" itemID="695d2d67-00000632" lastModified="1767714151"/>
+          <Include href="backMenubtn.xml" loadImmediate="false" itemID="695d1e07-000003b9" lastModified="1767710238"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="61a87540-00000278" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_0.xml" loadImmediate="false" itemID="61a87540-0000027e" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="61a87540-00000272" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_1_0.xml" loadImmediate="false" itemID="61a87540-00000276" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_1_1.xml" loadImmediate="false" itemID="61a87540-0000027c" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_1_2.xml" loadImmediate="false" itemID="61a87540-00000282" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_1_3.xml" loadImmediate="false" itemID="61a87540-00000288" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_1_4.xml" loadImmediate="false" itemID="61a87540-0000028e" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_1_5.xml" loadImmediate="false" itemID="61a87540-00000294" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_1_6.xml" loadImmediate="false" itemID="61a87540-0000029a" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_1_7.xml" loadImmediate="false" itemID="61a87540-000002a0" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_1_8.xml" loadImmediate="false" itemID="61a87540-000002a6" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_1_9.xml" loadImmediate="false" itemID="61a87540-000002bc" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_1_10.xml" loadImmediate="false" itemID="61a87540-000002c0" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_2.xml" loadImmediate="false" itemID="61a87540-00000270" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_2_0.xml" loadImmediate="false" itemID="61a87540-000002ba" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_2_1.xml" loadImmediate="false" itemID="61a87540-000002be" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_3.xml" loadImmediate="false" itemID="61a87540-00000274" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_3_0.xml" loadImmediate="false" itemID="61a87540-0000027a" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_3_1.xml" loadImmediate="false" itemID="61a87540-00000280" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_3_2.xml" loadImmediate="false" itemID="61a87540-00000286" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_3_3.xml" loadImmediate="false" itemID="61a87540-0000028c" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_3_4.xml" loadImmediate="false" itemID="61a87540-00000292" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_3_5.xml" loadImmediate="false" itemID="61a87540-00000298" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_3_6.xml" loadImmediate="false" itemID="61a87540-0000029e" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_3_7.xml" loadImmediate="false" itemID="61a87540-000002a4" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_3_8.xml" loadImmediate="false" itemID="61a87540-000002b8" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_4.xml" loadImmediate="false" itemID="61a87540-00000284" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_4_0.xml" loadImmediate="false" itemID="61a87540-000002b6" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_5.xml" loadImmediate="false" itemID="61a87540-0000028a" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_6.xml" loadImmediate="false" itemID="61a87540-00000290" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_7.xml" loadImmediate="false" itemID="61a87540-00000296" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_8.xml" loadImmediate="false" itemID="61a87540-0000029c" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_9.xml" loadImmediate="false" itemID="61a87540-000002a2" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_10.xml" loadImmediate="false" itemID="61a87540-000002a8" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_11.xml" loadImmediate="false" itemID="61a87540-000002c2" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_29.xml" loadImmediate="false" itemID="61a87540-000002b4" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_31.xml" loadImmediate="false" itemID="61a87540-000002b2" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_32.xml" loadImmediate="false" itemID="61a87540-000002b0" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_33.xml" loadImmediate="false" itemID="61a87540-000002ae" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_34.xml" loadImmediate="false" itemID="61a87540-000002ac" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_35.xml" loadImmediate="false" itemID="61a87540-000002aa" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_40.xml" loadImmediate="false" itemID="61a87540-0000026e" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_41.xml" loadImmediate="false" itemID="61a87540-0000026c" lastModified="1638430016"/>
+          <Include href="beach_lighthouse__assets__/FlashAICB/Layer 1/&amp;#060Path&amp;#062_42.xml" loadImmediate="false" itemID="61a87540-0000026a" lastModified="1638430016"/>
+          <Include href="btnA.xml" loadImmediate="false" itemID="6959506f-0000090b" lastModified="1767463458"/>
+          <Include href="btnB.xml" loadImmediate="false" itemID="69595071-0000090d" lastModified="1767460977"/>
+          <Include href="btnC.xml" loadImmediate="false" itemID="6959618a-00000f9d" lastModified="1767465354"/>
+          <Include href="btnD.xml" loadImmediate="false" itemID="695bccb3-00000245" lastModified="1767623859"/>
+          <Include href="btnStart.xml" loadImmediate="false" itemID="695810ff-000006d8" lastModified="1767630357"/>
+          <Include href="fff.xml" loadImmediate="false" itemID="69593ec6-00000270" lastModified="1767456455"/>
+          <Include href="Label.xml" loadImmediate="false" itemID="695bcb3b-0000019d" lastModified="1767623483"/>
+          <Include href="LBbtn.xml" loadImmediate="false" itemID="695d18a5-0000034b" lastModified="1767708837"/>
+          <Include href="NameContainer.xml" loadImmediate="false" itemID="695be02d-000001d0" lastModified="1767628845"/>
+          <Include href="Res_Container.xml" loadImmediate="false" itemID="695beae2-000005d5" lastModified="1767710060"/>
+          <Include href="timerContainer.xml" loadImmediate="false" itemID="695cf386-000001d9" lastModified="1767699394"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" currentFrame="29" layerDepthEnabled="true">
+               <layers>
+                    <DOMLayer name="Layer_1" color="#000000" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" duration="29" name="menu" labelType="name" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[this.stop();
+const root = this;
+console.log("MENU root =", root);
+
+// ===============================
+// ⚙️ CONFIG
+// ===============================
+const MIN_CHARS = 4;
+const MAX_CHARS = 15;
+const PLACEHOLDER = "Insert your Name!!";
+
+// ===============================
+// 🔊 REGISTO DE SOM
+// ===============================
+createjs.Sound.registerSound("sounds/quiz_menu.mp3", "quiz_menu");
+
+// ===============================
+// 🧠 ESTADO
+// ===============================
+let playerName = "";
+
+// ===============================
+// 🔗 REFERÊNCIAS
+// ===============================
+const nameTxt  = root.txtName;
+const startBtn = root.btnStart;
+const lbBtn    = root.LBbtn;
+
+// ===============================
+// 🔊 MÚSICA DO MENU (GESTÃO CORRETA)
+// ===============================
+
+// parar qualquer música anterior
+if (root.bgMusic) {
+  root.bgMusic.stop();
+  root.bgMusic = null;
+}
+
+// iniciar música do menu
+root.bgMusic = createjs.Sound.play("quiz_menu", {
+  loop: -1,
+  volume: 1
+});
+
+// ===============================
+// 🎨 VISUAL BOTÃO
+// ===============================
+function disableButton() {
+  startBtn.mouseEnabled = false;
+  startBtn.alpha = 0.4;
+}
+
+function enableButton() {
+  startBtn.mouseEnabled = true;
+  startBtn.alpha = 1;
+}
+
+// ===============================
+// 🚀 INIT
+// ===============================
+nameTxt.text = PLACEHOLDER;
+disableButton();
+
+// ===============================
+// ⌨️ INPUT TECLADO
+// ===============================
+window.addEventListener("keydown", handleKey);
+
+function handleKey(e) {
+  // Backspace
+  if (e.key === "Backspace") {
+    playerName = playerName.slice(0, -1);
+  }
+  // Letras, números e espaço
+  else if (/^[a-zA-Z0-9 ]$/.test(e.key)) {
+    if (playerName.length < MAX_CHARS) {
+      playerName += e.key;
+    }
+  }
+
+  updateText();
+  validateName();
+}
+
+// ===============================
+// 📝 UPDATE TEXTO
+// ===============================
+function updateText() {
+  nameTxt.text = playerName.length > 0 ? playerName : PLACEHOLDER;
+}
+
+// ===============================
+// ✅ VALIDAÇÃO
+// ===============================
+function validateName() {
+  if (playerName.length >= MIN_CHARS && playerName.length <= MAX_CHARS) {
+    enableButton();
+  } else {
+    disableButton();
+  }
+}
+
+// ===============================
+// ▶️ BOTÃO PLAY (MENU → QUIZ)
+// ===============================
+startBtn.cursor = "pointer";
+startBtn.on("click", () => {
+  if (playerName.length >= MIN_CHARS) {
+    root.playerName = playerName;
+
+    // parar música do menu
+    if (root.bgMusic) {
+      root.bgMusic.stop();
+      root.bgMusic = null;
+    }
+
+    root.gotoAndStop("quiz");
+  }
+});
+
+// ===============================
+// 🏆 BOTÃO LEADERBOARD (MENU → LEADERBOARD)
+// ===============================
+lbBtn.cursor = "pointer";
+lbBtn.on("click", () => {
+  if (root.bgMusic) {
+    root.bgMusic.stop();
+    root.bgMusic = null;
+  }
+
+  root.gotoAndStop("leaderboard");
+});
+]]></script>
+                                   </Framescript>
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#FFFFFF"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!1860 8260|1860 1559!1860 1559|14420 1559!14420 1559|14420 6221!14420 7920|14420 9778!14420 9778|1860 9778!1860 9778|1860 9620"/>
+                                                  <Edge fillStyle0="1" edges="!14420 7920|11860 7920!11860 7920|11860 8180!11860 8180|4180 8180!4180 8180|4180 7920!4180 7920|3400 7920!3400 7920|3400 6221!3400 6221|4180 6221!4180 6221|4180 5641!4180 5641|11200 5641!11200 5641|11200 5779!11200 5779|11960 5779!11960
+ 5779|11960 6221!11960 6221|14420 6221"/>
+                                                  <Edge strokeStyle="1" edges="
+!4400 7560|4400 7300"/>
+                                                  <Edge fillStyle0="1" edges="
+!1860 8260|7940 8260!7940 8260|7940 9620!7940 9620|1860 9620"/>
+                                                  <Edge cubics="!14420 1559(;14420,1559 14420,6221 14420,6221q14420 1559 14420 6221);"/>
+                                                  <Edge cubics="!14420 7920(;14420,7920 14420,9778 14420,9778q14420 7920 14420 9778);"/>
+                                                  <Edge cubics="!11960 5779(;11960,5779 11960,6221 11960,6221q11960 5779 11960 6221);"/>
+                                                  <Edge cubics="!11200 5779(;11200,5779 11960,5779 11960,5779q11200 5779 11960 5779);"/>
+                                                  <Edge cubics="!1860 9778(;1860,9778 1860,9620 1860,9620q1860 9778 1860 9620);"/>
+                                                  <Edge cubics="!1860 8260(;1860,8260 1860,1559 1860,1559q1860 8260 1860 1559);"/>
+                                                  <Edge cubics="!14420 9778(;14420,9778 1860,9778 1860,9778q14420 9778 1860 9778);"/>
+                                                  <Edge cubics="!1860 1559(;1860,1559 14420,1559 14420,1559q1860 1559 14420 1559);"/>
+                                                  <Edge cubics="!3400 6221(;3400,6221 4180,6221 4180,6221q3400 6221 4180 6221);"/>
+                                                  <Edge cubics="!3400 7920(;3400,7920 3400,6221 3400,6221q3400 7920 3400 6221);"/>
+                                                  <Edge cubics="!11960 6221(;11960,6221 14420,6221 14420,6221q11960 6221 14420 6221);"/>
+                                                  <Edge cubics="!14420 7920(;14420,7920 11860,7920 11860,7920q14420 7920 11860 7920);"/>
+                                                  <Edge cubics="!4180 7920(;4180,7920 3400,7920 3400,7920q4180 7920 3400 7920);"/>
+                                                  <Edge cubics="!4180 6221(;4180,6221 4180,5641 4180,5641q4180 6221 4180 5641);"/>
+                                                  <Edge cubics="!11200 5641(;11200,5641 11200,5779 11200,5779q11200 5641 11200 5779);"/>
+                                                  <Edge cubics="!7940 8260(;7940,8260 7940,9620 7940,9620q7940 8260 7940 9620);"/>
+                                                  <Edge cubics="!4180 5641(;4180,5641 11200,5641 11200,5641q4180 5641 11200 5641);"/>
+                                                  <Edge cubics="!1860 8260(;1860,8260 7940,8260 7940,8260q1860 8260 7940 8260);"/>
+                                                  <Edge cubics="!7940 9620(;7940,9620 1860,9620 1860,9620q7940 9620 1860 9620);"/>
+                                                  <Edge cubics="!4400 7560(;4400,7560 4400,7300 4400,7300q4400 7560 4400 7300);"/>
+                                                  <Edge cubics="!4180 8180(;4180,8180 4180,7920 4180,7920q4180 8180 4180 7920);"/>
+                                                  <Edge cubics="!11860 7920(;11860,7920 11860,8180 11860,8180q11860 7920 11860 8180);"/>
+                                                  <Edge cubics="!11860 8180(;11860,8180 4180,8180 4180,8180q11860 8180 4180 8180);"/>
+                                             </edges>
+                                        </DOMShape>
+                                        <DOMBitmapInstance libraryItemName="images/brick background.jpg">
+                                             <matrix>
+                                                  <Matrix a="0.178970336914062" d="0.202972412109375" tx="-4" ty="-15"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                        <DOMDynamicText fontRenderingMode="standard" left="-33" width="783.95" height="168.3" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="41.05" ty="52.75"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>LearnIT - A quiz to learn!!</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="90.75" size="60" bitmapSize="1200" face="Jokerman-Regular" fillColor="#9966FF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMSymbolInstance libraryItemName="btnStart" name="btnStart">
+                                             <matrix>
+                                                  <Matrix tx="277.95" ty="473"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="122.05" y="29.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="NameContainer">
+                                             <matrix>
+                                                  <Matrix tx="208" ty="291.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="192" y="43.95"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText name="txtName" fontRenderingMode="standard" width="321" height="46.8" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="260" ty="311.25"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Insert your Name!!</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="33.5" size="30" bitmapSize="600" face="ArialMT" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMBitmapInstance libraryItemName="images/question marks.png">
+                                             <matrix>
+                                                  <Matrix a="0.657577514648438" b="0.15106201171875" c="-0.158309936523438" d="0.68896484375" tx="583.65" ty="55.2"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                        <DOMSymbolInstance libraryItemName="LBbtn" name="LBbtn">
+                                             <matrix>
+                                                  <Matrix a="0.745452880859375" d="0.963623046875" tx="314" ty="185.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="110" y="27.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText fontRenderingMode="standard" width="148" height="27.95" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="319.95" ty="197.7"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Leaderboard</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="27.95" size="25" bitmapSize="500" face="ArialMT" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="29" duration="30" name="quiz" labelType="name" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[this.stop();
+const root = this;
+console.log("root =", root);
+
+// ===============================
+// 🎨 CORES
+// ===============================
+const COLOR_NORMAL   = 0x9B6BFF;
+const COLOR_SELECTED = 0xFF9800;
+const COLOR_CORRECT  = 0x4CAF50;
+const COLOR_WRONG    = 0xF44336;
+
+// ===============================
+// 🔊 SONS – REGISTO
+// ===============================
+createjs.Sound.registerSound("sounds/button_click.mp3", "button_click");
+createjs.Sound.registerSound("sounds/correct_answer.mp3", "correct_answer");
+createjs.Sound.registerSound("sounds/wrong_answer.mp3", "wrong_answer");
+
+let userAnswers = [];
+let questionStartTime = 0;
+
+// ===============================
+// 🎵 MÚSICA DE FUNDO
+// ===============================
+let bgMusic = createjs.Sound.play("quiz_menu", {
+  loop: -1,
+  volume: 0.4
+});
+
+// ===============================
+// ❓ PERGUNTAS
+// ===============================
+const questions = [
+  {
+    q: "O que significa HTML?",
+    a: [
+      "Hyper Text Markup Language",
+      "High Text Machine Language",
+      "Hyperlinks Text Module",
+      "Home Tool Markup Language"
+    ],
+    correct: 0
+  },
+  {
+    q: "Qual destas linguagens é usada para interatividade na web?",
+    a: ["HTML", "CSS", "JavaScript", "SQL"],
+    correct: 2
+  },
+  {
+    q: "O Adobe Animate HTML5 exporta animações usando:",
+    a: ["Flash Player", "Unity", "CreateJS", "React"],
+    correct: 2
+  },
+  {
+    q: "Qual destes é um formato multimédia?",
+    a: ["TXT", "MP3", "CSV", "XML"],
+    correct: 1
+  },
+  {
+    q: "Qual é a principal função do CSS?",
+    a: [
+      "Criar lógica",
+      "Criar bases de dados",
+      "Estilizar conteúdo",
+      "Executar scripts"
+    ],
+    correct: 2
+  },
+  {
+    q: "O que é multimédia?",
+    a: [
+      "Texto apenas",
+      "Imagem apenas",
+      "Som apenas",
+      "Combinação de vários meios"
+    ],
+    correct: 3
+  },
+  {
+    q: "Qual destes dispositivos é de entrada?",
+    a: ["Monitor", "Colunas", "Rato", "Projetor"],
+    correct: 2
+  },
+  {
+    q: "Qual tecnologia permite guardar dados num servidor?",
+    a: ["HTML", "PHP", "CSS", "Canvas"],
+    correct: 1
+  },
+  {
+    q: "O que significa UI?",
+    a: [
+      "User Interaction",
+      "User Interface",
+      "Universal Input",
+      "Unified Internet"
+    ],
+    correct: 1
+  },
+  {
+    q: "Qual destes é um exemplo de aplicação multimédia interativa?",
+    a: [
+      "Documento PDF",
+      "Imagem JPEG",
+      "Jogo educativo",
+      "Texto simples"
+    ],
+    correct: 2
+  }
+];
+
+// ===============================
+// 📊 ESTADO
+// ===============================
+let current = 0;
+let score = 0;
+let selectedIndex = null;
+let locked = false;
+
+// ===============================
+// ⏱️ TIMER
+// ===============================
+let timeLeft = 15;
+let timerInterval = null;
+
+// ===============================
+// 🔘 BOTÕES
+// ===============================
+const buttons = [
+  root.btnA,
+  root.btnB,
+  root.btnC,
+  root.btnD
+];
+
+// ===============================
+// 🎨 FUNÇÕES VISUAIS
+// ===============================
+function setButtonColor(btn, color) {
+  btn.filters = [
+    new createjs.ColorFilter(
+      ((color >> 16) & 255) / 255,
+      ((color >> 8) & 255) / 255,
+      (color & 255) / 255,
+      1
+    )
+  ];
+  btn.cache(0, 0, btn.nominalBounds.width, btn.nominalBounds.height);
+}
+
+function resetButtons() {
+  buttons.forEach(btn => setButtonColor(btn, COLOR_NORMAL));
+  selectedIndex = null;
+}
+
+// ===============================
+// ⏱️ TIMER
+// ===============================
+function formatTime(seconds) {
+  const m = Math.floor(seconds / 60);
+  const s = seconds % 60;
+
+  return (
+    String(m).padStart(2, "0") +
+    ":" +
+    String(s).padStart(2, "0")
+  );
+}
+
+function startTimer() {
+  clearInterval(timerInterval);
+  timeLeft = 15;
+  root.text.text = formatTime(timeLeft);
+
+  timerInterval = setInterval(() => {
+    timeLeft--;
+    root.text.text = formatTime(timeLeft);
+
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      autoFail();
+    }
+  }, 1000);
+}
+// ===============================
+// 📋 QUIZ
+// ===============================
+function loadQuestion() {
+  const q = questions[current];
+
+  root.txtQuestion.text = q.q;
+  root.txtA.text = q.a[0];
+  root.text_1.text = q.a[1];
+  root.txtC.text = q.a[2];
+  root.txtName.text = q.a[3];
+
+  resetButtons();
+  startTimer();
+  questionStartTime = Date.now();
+}
+
+function autoFail() {
+  if (locked) return;
+  locked = true;
+
+  const correct = questions[current].correct;
+  setButtonColor(buttons[correct], COLOR_CORRECT);
+
+  setTimeout(() => {
+    locked = false;
+    nextQuestion();
+  }, 900);
+}
+
+function validateAnswer(index) {
+    if (locked) return;
+    
+    locked = true;
+    clearInterval(timerInterval);
+    const correct = questions[current].correct;
+	const timeSpentMs = Date.now() - questionStartTime;
+	
+	userAnswers[current] = {
+    selectedIndex: index,
+    isCorrect: index === correct,
+	timeMs: timeSpentMs
+  };
+    
+    // Stop background music if it exists
+    if (bgMusic) {
+        bgMusic.stop();
+    }
+    
+    if (index === correct) {
+        setButtonColor(buttons[index], COLOR_CORRECT);
+        createjs.Sound.play("correct_answer", { volume: 1 });
+        score++;
+    } else {
+        setButtonColor(buttons[index], COLOR_WRONG);
+        setButtonColor(buttons[correct], COLOR_CORRECT);
+        createjs.Sound.play("wrong_answer", { volume: 1 });
+    }
+    
+    setTimeout(() => {
+        locked = false;
+        // Resume background music
+        bgMusic = createjs.Sound.play("quiz_menu", { 
+            loop: -1, 
+            volume: 0.4 
+        });
+        nextQuestion();
+    }, 900);
+}
+
+function nextQuestion() {
+  clearInterval(timerInterval);
+  resetButtons();
+
+  current++;
+  selectedIndex = null;
+
+  if (current < questions.length) {
+    loadQuestion();
+  } else {
+  saveGameData();
+
+  root.score = score;
+  root.totalQuestions = questions.length;
+  if (bgMusic) {
+        bgMusic.stop();
+    }
+  root.gotoAndStop("result");
+	  
+}
+}
+
+function answer(index) {
+  if (locked) return;
+
+  createjs.Sound.play("button_click", {volume:1});
+
+  if (selectedIndex !== index) {
+    resetButtons();
+    setButtonColor(buttons[index], COLOR_SELECTED);
+    selectedIndex = index;
+    return;
+  }
+
+  validateAnswer(index);
+}
+function saveGameData() {
+  const data = {
+    player: root.playerName,
+    score: score,
+    totalQuestions: questions.length,
+    answeredQuestions: current,
+    timestamp: new Date().toISOString(),
+     results: questions.map((q, i) => {
+      const answer = userAnswers[i];
+
+      return {
+        question: q.q,
+        correctIndex: q.correct,
+        selectedIndex: answer ? answer.selectedIndex : null,
+		timeMs: answer ? answer.timeMs : null,
+        isCorrect: answer ? answer.isCorrect : false,
+        answered: answer !== undefined
+      };
+    })
+  };
+
+  fetch("save.js", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(data)
+  })
+  .then(res => res.text())
+  .then(response => console.log("SAVE:", response))
+  .catch(err => console.error("SAVE ERROR:", err));
+}
+
+
+// ===============================
+// 🖱️ EVENTOS
+// ===============================
+root.btnA.on("click", () => answer(0));
+root.btnB.on("click", () => answer(1));
+root.btnC.on("click", () => answer(2));
+root.btnD.on("click", () => answer(3));
+
+// ===============================
+// ▶️ START
+// ===============================
+loadQuestion();
+]]></script>
+                                   </Framescript>
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#FFFFFF"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#323232" alpha="0.498039215686275"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke scaleMode="normal" weight="0.1">
+                                                            <fill>
+                                                                 <SolidColor/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                                  <StrokeStyle index="2">
+                                                       <SolidStroke scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#FFFFFF"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge strokeStyle="1" edges="
+!12995 5040S4|12995 5261"/>
+                                                  <Edge fillStyle1="2" strokeStyle="1" edges="
+!25145 8058S6|25145 8288"/>
+                                                  <Edge fillStyle1="2" edges="
+!25145 8288S2|24915 8288!24915 8288|24915 8058!24915 8058|25145 8058"/>
+                                                  <Edge strokeStyle="1" edges="
+!8953 5502S4|8953 5538"/>
+                                                  <Edge strokeStyle="2" edges="
+!6719 7299S4|7700 7299!7700 7299|7700 8900!7700 8900|719 8900!719 8900|719 8800"/>
+                                                  <Edge fillStyle1="1" strokeStyle="2" edges="
+!5520 8699S6|5520 8800!5520 8800|719 8800!719 8800|719 8699"/>
+                                                  <Edge fillStyle0="1" edges="
+!5520 8699S1|6719 8699!6719 8699|6719 8599!6719 8599|719 8599!719 8599|719 8699"/>
+                                             </edges>
+                                        </DOMShape>
+                                        <DOMBitmapInstance selected="true" libraryItemName="images/brick background.jpg">
+                                             <matrix>
+                                                  <Matrix a="0.178970336914062" d="0.202972412109375"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                        <DOMDynamicText selected="true" fontRenderingMode="standard" left="-33" width="880.9" height="183.5" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="39.05" ty="2"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>LearnIT - A quiz to learn!!</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="90.75" size="60" bitmapSize="1200" face="Jokerman-Regular" fillColor="#9966FF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMSymbolInstance libraryItemName="Answer Container" selected="true">
+                                             <matrix>
+                                                  <Matrix a="0.98529052734375" d="1.45027160644531" tx="-572.1" ty="547.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="363.9" y="92.05"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Answer Container" selected="true">
+                                             <matrix>
+                                                  <Matrix a="0.98529052734375" d="0.733978271484375" tx="-572.1" ty="245.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="363.85" y="92.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText name="txtQuestion" selected="true" fontRenderingMode="standard" top="-12.85" left="-13.8" width="648.35" height="127" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix a="1.07757568359375" tx="26.3" ty="142.2"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>QUESTION HERE!!</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="33.5" size="30" bitmapSize="600" face="ArialMT" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMSymbolInstance libraryItemName="btnA" name="btnA" selected="true">
+                                             <matrix>
+                                                  <Matrix a="1.34529113769531" d="1.40139770507812" tx="35.95" ty="364.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="111.55" y="25"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="btnC" name="btnC" selected="true">
+                                             <matrix>
+                                                  <Matrix a="1.34529113769531" d="1.40139770507812" tx="35.95" ty="455.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="111.55" y="25"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="btnB" name="btnB" selected="true">
+                                             <matrix>
+                                                  <Matrix a="1.34529113769531" d="1.40139770507812" tx="389.4" ty="364.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="111.5" y="25"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText name="txtA" selected="true" fontRenderingMode="standard" width="284" height="53.1" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="44" ty="374.85"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Option A</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="27.95" size="25" bitmapSize="500" face="ArialMT" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="txtC" selected="true" fontRenderingMode="standard" width="283" height="53.1" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="37.95" ty="465.65"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Option C</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="27.95" size="25" bitmapSize="500" face="ArialMT" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="txtB" selected="true" fontRenderingMode="standard" width="290.6" height="53.1" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="396.8" ty="374.85"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Option B</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="27.95" size="25" bitmapSize="500" face="ArialMT" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMSymbolInstance libraryItemName="btnD" name="btnD" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="389.4" ty="455.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="150" y="35"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText name="txtD" selected="true" fontRenderingMode="standard" width="281" height="51.65" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="400" ty="467.35"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Option D</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="27.95" size="25" bitmapSize="500" face="ArialMT" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMSymbolInstance libraryItemName="timerContainer" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="283" ty="261.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="86" y="26"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText name="timer" selected="true" fontRenderingMode="standard" width="75" height="27.95" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="339" ty="271.25"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>00:15</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="27.95" size="25" bitmapSize="500" face="ArialMT" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMBitmapInstance selected="true" libraryItemName="images/question marks.png">
+                                             <matrix>
+                                                  <Matrix a="0.135787963867188" b="0.03118896484375" c="-0.0325469970703125" d="0.14166259765625" tx="740.5" ty="98.05"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                        <DOMBitmapInstance selected="true" libraryItemName="images/question marks.png">
+                                             <matrix>
+                                                  <Matrix a="0.135787963867188" b="0.03118896484375" c="-0.0325469970703125" d="0.14166259765625" tx="-23.4" ty="285"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                        <DOMBitmapInstance selected="true" libraryItemName="images/question marks.png">
+                                             <matrix>
+                                                  <Matrix a="0.135787963867188" b="0.03118896484375" c="-0.0325469970703125" d="0.14166259765625" tx="46.55" ty="525.95"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                        <DOMBitmapInstance selected="true" libraryItemName="images/question marks.png">
+                                             <matrix>
+                                                  <Matrix a="0.135787963867188" b="0.03118896484375" c="-0.0325469970703125" d="0.14166259765625" tx="544.55" ty="222"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-1376.7" y="-42.8"/>
+                                             </transformationPoint>
+                                        </DOMBitmapInstance>
+                                        <DOMBitmapInstance selected="true" libraryItemName="images/question marks.png">
+                                             <matrix>
+                                                  <Matrix a="0.135787963867188" b="0.03118896484375" c="-0.0325469970703125" d="0.14166259765625" tx="613.55" ty="517.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="2279.7" y="-918.4"/>
+                                             </transformationPoint>
+                                        </DOMBitmapInstance>
+                                        <DOMBitmapInstance selected="true" libraryItemName="images/question marks.png">
+                                             <matrix>
+                                                  <Matrix a="0.135787963867188" b="0.03118896484375" c="-0.0325469970703125" d="0.14166259765625" tx="738.55" ty="330.95"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                        <DOMBitmapInstance selected="true" libraryItemName="images/question marks.png">
+                                             <matrix>
+                                                  <Matrix a="0.135787963867188" b="0.03118896484375" c="-0.0325469970703125" d="0.14166259765625" tx="-34.4" ty="72"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-1376.7" y="-42.8"/>
+                                             </transformationPoint>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="59" duration="11" name="result" labelType="name" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[this.stop();
+const root = this;
+
+const playerName = root.playerName || "Jogador";
+const score = root.score || 0;
+const total = root.totalQuestions || 10;
+createjs.Sound.registerSound("sounds/good_result.mp3", "good_result");
+createjs.Sound.registerSound("sounds/bad_result.mp3", "bad_result");
+
+// ---------------- MENSAGEM ----------------
+let message = "";
+
+if (score >= 7) {
+  message =
+    "Parabéns, " + playerName + " 💪\n\n" +
+    "Fizeste " + score + " pontos em " + total + ".\n" +
+    "Excelente trabalho!";
+	createjs.Sound.play("good_result", {volume:1});
+}
+else if (score >= 5) {
+  message =
+    "Nada mal, " + playerName + " 🙂\n\n" +
+    "Fizeste " + score + " pontos em " + total + ".\n" +
+    "Podes melhorar, continua!";
+}
+else {
+  message =
+    "Força, " + playerName + " 💥\n\n" +
+    "Fizeste " + score + " pontos em " + total + ".\n" +
+    "Revê a matéria e tenta novamente.";
+	createjs.Sound.play("bad_result", {volume:1});
+}
+// ---------------- OUTPUT ----------------
+root.txtB.text = message;
+root.txtB.font = "24px Arial";
+root.txtB.textAlign = "center";
+
+
+// ===============================
+// 🔄 RESET DO JOGO
+// ===============================
+function resetGame() {
+  root.score = 0;
+  root.playerName = null;
+  root.current = 0;
+  root.selectedIndex = null;
+  root.locked = false;
+
+  if (root.userAnswers) {
+    root.userAnswers.length = 0;
+  }
+
+  if (root.timerInterval) {
+    clearInterval(root.timerInterval);
+  }
+
+  if (root.bgMusic) {
+    root.bgMusic.stop();
+    root.bgMusic = null;
+  }
+}
+
+// ===============================
+// 🔘 BOTÃO: BACK TO MENU
+// ===============================
+root.backMenubtn.cursor = "pointer";
+root.backMenubtn.on("click", () => {
+  resetGame();
+  root.gotoAndStop("menu"); // 🔁 muda para número se não usares label
+});
+
+// ===============================
+// 🔘 BOTÃO: LEADERBOARD
+// ===============================
+root.LBbtn.cursor = "pointer";
+root.LBbtn.on("click", () => {
+  root.gotoAndStop("leaderboard");
+});
+]]></script>
+                                   </Framescript>
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="images/brick background.jpg">
+                                             <matrix>
+                                                  <Matrix a="0.178970336914062" d="0.202972412109375" tx="1" ty="1"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                        <DOMSymbolInstance libraryItemName="Res_Container">
+                                             <matrix>
+                                                  <Matrix a="0.62420654296875" d="0.77032470703125" tx="205.25" ty="117"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="339" y="247.95"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText fontRenderingMode="standard" left="-33" width="668.15" height="75.6" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix a="0.954803466796875" d="1.06399536132812" tx="124.65" ty="10.4"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>LearnIT - A quiz to learn!!</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="75.6" size="50" bitmapSize="1000" face="Jokerman-Regular" fillColor="#9966FF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText fontRenderingMode="standard" top="-48.35" width="483" height="402.95" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="320" ty="308.4"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Result</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="27.95" size="25" bitmapSize="500" face="ArialMT" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMSymbolInstance libraryItemName="LBbtn" name="LBbtn">
+                                             <matrix>
+                                                  <Matrix a="0.745452880859375" d="0.963623046875" tx="213.05" ty="163.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="110" y="27.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText fontRenderingMode="standard" width="148" height="27.95" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="219" ty="175.25"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Leaderboard</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="27.95" size="25" bitmapSize="500" face="ArialMT" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMSymbolInstance libraryItemName="backMenubtn" name="backMenubtn">
+                                             <matrix>
+                                                  <Matrix a="0.976516723632812" d="1.07843017578125" tx="421.05" ty="163.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="87.15" y="25.6"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText fontRenderingMode="standard" width="156" height="34.65" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="427" ty="176.4"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Back to Menu</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="27.95" size="25" bitmapSize="500" face="ArialMT" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="70" duration="10" name="leaderboard" labelType="name" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[this.stop();
+const root = this;
+
+root.txtName.text = "A carregar leaderboard...";
+
+// ===============================
+// 📊 CARREGAR LEADERBOARD
+// ===============================
+fetch("leaderboard.js")
+  .then(res => res.json())
+  .then(data => {
+    if (!data.length) {
+      root.txtName.text = "Sem resultados ainda.";
+      return;
+    }
+
+    let output = "";
+    let rank = 1;
+
+    data.forEach(entry => {
+      output +=
+        rank + ". " +
+        entry.player +
+        " ".repeat(30 - entry.player.length) +
+        entry.score +
+        "\n";
+      rank++;
+    });
+
+    root.txtName.text = output;
+  })
+  .catch(err => {
+    console.error(err);
+    root.txtName.text = "Erro a carregar leaderboard.";
+  });
+
+// ===============================
+// 🔘 VOLTAR AO MENU
+// ===============================
+root.backMenubtn.cursor = "pointer";
+root.backMenubtn.on("click", () => {
+  root.gotoAndStop("menu");
+});
+
+root.LBbtn.cursor = "pointer";
+root.LBbtn.on("click", () => {
+  root.gotoAndStop("leaderboard");
+});
+]]></script>
+                                   </Framescript>
+                                   <elements>
+                                        <DOMBitmapInstance selected="true" libraryItemName="images/brick background.jpg">
+                                             <matrix>
+                                                  <Matrix a="0.178970336914062" d="0.202972412109375" tx="1" ty="1"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                        <DOMSymbolInstance libraryItemName="Res_Container" selected="true" centerPoint3DX="409.2" centerPoint3DY="349.95">
+                                             <matrix>
+                                                  <Matrix a="0.903488159179688" d="1.0531005859375" tx="103.55" ty="61.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="339.05" y="248"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText selected="true" fontRenderingMode="standard" left="-33" width="668.15" height="75.6" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix a="0.954803466796875" d="1.06399536132812" tx="124.65" ty="10.4"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>LearnIT - A quiz to learn!!</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="75.6" size="50" bitmapSize="1000" face="Jokerman-Regular" fillColor="#9966FF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMSymbolInstance libraryItemName="LBbtn" selected="true" centerPoint3DX="439" centerPoint3DY="141.55">
+                                             <matrix>
+                                                  <Matrix a="1.39999389648438" tx="285.05" ty="114.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="110" y="27.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText selected="true" fontRenderingMode="standard" width="148" height="27.95" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="371" ty="125.25"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Leaderboard</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="27.95" size="25" bitmapSize="500" face="ArialMT" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="scoreBoard" selected="true" fontRenderingMode="standard" left="-45" width="410" height="409.6" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="227" ty="186.4"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters> &#xD;Scores</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="27.95" size="25" bitmapSize="500" face="ArialMT" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMBitmapInstance selected="true" libraryItemName="images/question marks.png">
+                                             <matrix>
+                                                  <Matrix a="0.262939453125" b="0.0604095458984375" c="-0.0680999755859375" d="0.296356201171875" tx="727.55" ty="417.75"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                        <DOMBitmapInstance selected="true" libraryItemName="images/trophy.png">
+                                             <matrix>
+                                                  <Matrix a="0.457534790039062" b="0.133346557617188" c="-0.135482788085938" d="0.464828491210938" tx="630.5" ty="25.4"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                        <DOMSymbolInstance libraryItemName="backMenubtn" name="backMenubtn" selected="true">
+                                             <matrix>
+                                                  <Matrix a="0.976516723632812" d="1.07843017578125" tx="108.05" ty="113.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="87.15" y="25.6"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText selected="true" fontRenderingMode="standard" width="129" height="31.1" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="126" ty="124.95"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Back to Menu</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="22.35" size="20" bitmapSize="400" face="ArialMT" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <scripts>
+          <GlobalScripts language="Javascript"/>
+     </scripts>
+     <persistentData>
+          <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+     </persistentData>
+     <PrinterSettings/>
+     <publishHistory/>
+</DOMDocument>
